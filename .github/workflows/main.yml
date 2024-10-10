@@ -3,7 +3,7 @@ name: Deploy React App to EKS
 on:
   push:
     branches:
-      - test1
+      - master
 jobs:
   build-app:
     runs-on: ubuntu-latest
