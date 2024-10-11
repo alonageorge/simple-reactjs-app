@@ -1,3 +1,4 @@
+
 {
   "name": "simple-reactjs-app",
   "version": "0.1.0",
@@ -5,11 +6,12 @@
   "homepage": "https://aditya-sridhar.github.io/simple-reactjs-app",
   "dependencies": {
     "axios": "^0.18.0",
-    "react": "^18.2.0", 
-    "react-bootstrap": "^0.32.1", 
-    "react-dom": "^18.2.0", 
-    "react-router-dom": "^6.0.0", 
-    "react-scripts": "5.0.1"
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,12 +19,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "lint": "eslint src"
+    "deploy": "gh-pages -d build"
   },
-  "devDependencies": {
-    "gh-pages": "^3.2.0", 
-    "eslint": "^8.0.0", 
-    "eslint-plugin-react": "^7.32.0"
-  }
+  "gh-pages": "^1.2.0", 
+  "eslint": "^8.0.0", 
+  "eslint-plugin-react": "^7.32.0"
 }
