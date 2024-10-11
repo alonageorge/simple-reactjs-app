@@ -1,9 +1,12 @@
 {
     "env": {
       "browser": true,
-      "es2020": true // Change from es2021 to es2020
+      "es2021": true
     },
-    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
     "parserOptions": {
       "ecmaVersion": 12,
       "sourceType": "module",
@@ -11,7 +14,18 @@
         "jsx": true
       }
     },
-    "plugins": ["react"],
-    "rules": {}
+    "plugins": [
+      "react"
+    ],
+    "rules": {
+      // Customize your rules here
+      "react/react-in-jsx-scope": "off", // Not needed for React 17+
+      "no-unused-vars": "warn" // Warn on unused variables
+    },
+    "settings": {
+      "react": {
+        "version": "detect" // Automatically detect the React version
+      }
+    }
   }
   
