@@ -22,6 +22,6 @@
     "deploy": "gh-pages -d build"
   },
   "gh-pages": "^1.2.0", 
-  "eslint": "^8.0.0", 
-  "eslint-plugin-react": "^7.32.0"
+  "eslint": "latest", 
+  "eslint-plugin-react": "latest"
 }
