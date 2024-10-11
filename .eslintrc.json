@@ -12,7 +12,6 @@
       }
     },
     "plugins": ["react"],
-    "rules": {},
-    "formatter": "stylish"
+    "rules": {}
   }
   
