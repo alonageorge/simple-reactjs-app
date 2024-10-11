@@ -12,7 +12,7 @@
       }
     },
     "plugins": ["react"],
-    "rules": {
-      //add customize rules here as per your project's needs
-    }
-}
+    "rules": {},
+    "formatter": "stylish"
+  }
+  
