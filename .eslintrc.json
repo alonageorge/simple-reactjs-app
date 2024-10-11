@@ -1,7 +1,6 @@
 {
     "env": {
-      "browser": true,
-      "es2019": true
+      "browser": true
     },
     "extends": [
       "eslint:recommended",
