@@ -1,7 +1,7 @@
 {
     "env": {
       "browser": true,
-      "es2021": true
+      "es2020": true // Change from es2021 to es2020
     },
     "extends": ["eslint:recommended", "plugin:react/recommended"],
     "parserOptions": {
